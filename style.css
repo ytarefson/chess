@@ -1,0 +1,78 @@
+div	{
+	margin: 0;
+	padding: 0;
+}
+
+#chess {
+	width: 539px;
+	line-height: 10px;
+}
+#chess div {
+width: 60px;
+height: 60px;
+display: inline-block;
+border: 1px solid black;
+color: red;
+font-size: 20px;
+line-height: 100px;
+//text-indent: 45px;
+}
+
+.Pesh {
+  background-image: url(BigSprite.png);
+  background-position: 60px 2px;
+}
+.Black_Pesh {
+  background-image: url(BigSprite.png);
+  background-position: 59px -92px;
+}
+.L {
+  background-image: url(BigSprite.png);
+  background-position: -218px 0px;
+}
+.E {
+  background-image: url(BigSprite.png);
+  background-position: -329px 0px;
+}
+.H {
+  background-image: url(BigSprite.png);
+  background-position: 160px 0px;
+}
+.K {
+  background-image: url(BigSprite.png);
+  background-position: 1px 0px;
+}
+.Q {
+	  background-image: url(BigSprite.png);
+  background-position: -107px 0px;
+}
+.LB {
+	  background-image: url(BigSprite.png);
+  background-position: -218px -93px;
+}
+.EB {
+  background-image: url(BigSprite.png);
+  background-position: -329px -93px;
+}
+.HB{
+  background-image: url(BigSprite.png);
+  background-position: 160px -93px;
+}
+.KB{
+  background-image: url(BigSprite.png);
+  background-position: 1px -93px;
+}
+.QB{
+  background-image: url(BigSprite.png);
+  background-position: -107px -93px;
+}
+
+.black {
+background-color: grey;
+}
+img {
+	
+padding: 15px 0 0 25px;
+	width: 50px;
+	margin: 0 auto;
+}
